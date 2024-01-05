@@ -52,10 +52,10 @@ if file is not None:
     st.dataframe(df[colss])
 
     import pickle
-    with open(r'C:\Users\akash\OneDrive\Desktop\IITM_Hackthon\IITM_Cyberpunks_ML\models\amount_clusters.pkl','rb') as amount_model:
+    with open(r'models\amount_clusters.pkl','rb') as amount_model:
         model_cluster= pickle.load(amount_model)
     res=model_cluster.predict([[np.log(df['Amount']).mean()]])
-    spending_category= 'Low Spender' if res ==0 else 'High Spender'
+    spending_category = 'Low Spender' if res == 0 else 'High Spender'
 
     co1,co2,co3=st.columns(3)
 

@@ -1,0 +1,6 @@
+,Unnamed: 0,Time,Unix Time,Trans_Id,Name,Acc Num,Merchant Name,Merchant Acc Name,Amount,Lat,Long,Is_Safe,Category
+8,8,2024-01-05 10:30,1704430800,TID123487,Prema Varadhan,9876543210987654,Office Supplies Inc,Business Essentials Ltd,150.0,40.7128,-74.006,Yes,misc
+9,9,2024-01-07 14:45,1704618900,TID123486,Prema Varadhan,9876543210987654,Business Lunch Spot,Gourmet Bites,35.5,40.7128,-74.006,Yes,food_dining
+10,10,2024-01-09 11:20,1704779400,TID123460,Prema Varadhan,9876543210987654,Technology Solutions,Tech Innovators Inc,500.0,40.7128,-74.006,Yes,misc
+11,11,2024-01-11 16:00,1704969000,TID123470,Prema Varadhan,9876543210987654,Business Travel Hub,Travel Connections,800.0,40.7128,-74.006,Yes,travel
+12,12,2024-01-13 09:15,1705117500,TID123491,Prema Varadhan,9876543210987654,Professional Wardrobe,Fashion Emporium,250.0,40.7128,-74.006,Yes,personal_care

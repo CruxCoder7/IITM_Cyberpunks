@@ -1,0 +1,6 @@
+,Unnamed: 0,Time,Unix Time,Trans_Id,Name,Acc Num,Merchant Name,Merchant Acc Name,Amount,Lat,Long,Is_Safe,Category
+43,43,2023-01-05 14:00,1672907400,TID123494,Thomas,7654321098765432,Pharmacy,Health Haven,35.5,38.8951,-77.0364,Yes,misc
+44,44,2023-04-09 11:30,1681020000,TID123492,Thomas,7654321098765432,Medical Services,Dr. Smith Clinic,80.0,38.8951,-77.0364,Yes,personal_care
+45,45,2023-07-13 09:45,1689221700,TID123484,Thomas,7654321098765432,Pharmacy,Wellness Pharmacy,20.0,38.8951,-77.0364,Yes,personal_care
+46,46,2024-01-17 16:30,1705489200,TID123496,Thomas,7654321098765432,Health Supplies,Comfort Care,15.0,38.8951,-77.0364,Yes,grocery
+47,47,2024-07-21 12:15,1721544300,TID123498,Thomas,7654321098765432,Pharmacy,MediCorner,40.0,38.8951,-77.0364,Yes,grocery
