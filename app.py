@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
+import pickle
 def get_transactions_per_day(df):
     df['Time'] = pd.to_datetime(df['Time'])
     df['Time'] = df['Time'].transform(lambda x : x.date())
@@ -49,9 +50,9 @@ if file is not None:
 
     st.markdown('## Transaction Summary')
     colss=["Time",'Trans_Id','Name','Acc Num','Merchant Name','Amount','Category']
-    st.dataframe(df[colss])z
+    st.dataframe(df[colss])
 
-    import pickle
+    
     with open('models/amount_clusters.pkl','rb') as amount_model:
         model_cluster= pickle.load(amount_model)
     res=model_cluster.predict([[np.log(df['Amount'].mean())]])
